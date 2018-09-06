@@ -25,7 +25,6 @@ public class Main extends Application{
             new Button("+15 pts/sec")
     };
 
-
     private Label score = new Label("Points: " + points[0]),
             pps = new Label("Points/sec: " + pointsParSec[0]),
             pointParClic = new Label("Points/clic: " + pointsParClic[0]);
