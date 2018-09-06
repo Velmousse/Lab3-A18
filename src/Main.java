@@ -112,7 +112,7 @@ public class Main extends Application{
         return new Group(buttons, labels);
     }
 
-    final public void buy(int bouton) {
+    public void buy(int bouton) {
         if (points[0] >= prixBuy[bouton]) {
             points[0] -= prixBuy[bouton];
             prixBuy[bouton] *= 2;
