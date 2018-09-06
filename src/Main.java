@@ -15,7 +15,7 @@ public class Main extends Application{
             pointsParSec = {0},
             prixBuy = {10, 25, 100, 1000, 10000};
 
-    private Button mainClic = new Button("+" + pointsParClic[0] + " pt");
+    private Button mainClic = new Button(":)");
 
     private Button[] buy = {
             new Button("+1 pt/clic"),
@@ -78,7 +78,7 @@ public class Main extends Application{
         }
 
         {  //Boutons
-            mainClic.setScaleX(5);
+            mainClic.setScaleX(8);
             mainClic.setScaleY(8);
             mainClic.setTranslateX(170);
             mainClic.setTranslateY(350);
